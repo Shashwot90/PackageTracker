@@ -6,6 +6,21 @@ A minimal, modern web application for tracking parcels, built with [Next.js](htt
 
 [https://package-tracker-7dara0f82-shashwot90s-projects.vercel.app/](https://package-tracker-7dara0f82-shashwot90s-projects.vercel.app/)
 
+## Example Package Numbers
+You can use the following package numbers to test the app:
+
+```
+6825a2ae0020cba48604
+6825a83c001ffdb857d4
+6825bee90019dad997b4
+6825bfa800365853ec13
+6825bfde002d8ce8e973
+6825c0210011b7e0740d
+6825c053002a3d7634f7
+6825c093000a60086fe7
+6825c0d2001fa652f473
+6825c10e0034f6fdbea5
+```
 ## Getting Started
 
 1. **Clone the repository:**
@@ -46,21 +61,7 @@ A minimal, modern web application for tracking parcels, built with [Next.js](htt
 - View parcel information and status updates
 - Clean, minimal, and responsive UI
 
-## Example Package Numbers
-You can use the following package numbers to test the app:
 
-```
-6825a2ae0020cba48604
-6825a83c001ffdb857d4
-6825bee90019dad997b4
-6825bfa800365853ec13
-6825bfde002d8ce8e973
-6825c0210011b7e0740d
-6825c053002a3d7634f7
-6825c093000a60086fe7
-6825c0d2001fa652f473
-6825c10e0034f6fdbea5
-```
 
 ## Customization
 - Update styles in `styles/Home.module.css` for a different look.
