@@ -4,7 +4,7 @@ A minimal, modern web application for tracking parcels, built with [Next.js](htt
 
 ## Live Demo at Vercel
 
-[https://package-tracker-7dara0f82-shashwot90s-projects.vercel.app/](https://package-tracker-7dara0f82-shashwot90s-projects.vercel.app/)
+[Vercel Link](https://package-tracker-1.vercel.app/)
 
 ## Example Package Numbers
 You can use the following package numbers to test the app:
