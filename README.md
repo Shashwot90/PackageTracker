@@ -2,6 +2,10 @@
 
 A minimal, modern web application for tracking parcels, built with [Next.js](https://nextjs.org) and [Appwrite](https://appwrite.io/).
 
+## Live Demo at Vercel
+
+[https://package-tracker-7dara0f82-shashwot90s-projects.vercel.app/](https://package-tracker-7dara0f82-shashwot90s-projects.vercel.app/)
+
 ## Getting Started
 
 1. **Clone the repository:**
