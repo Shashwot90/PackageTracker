@@ -26,6 +26,7 @@ export default function Tracker() {
         };
       });
       setNotifications(() => data);
+      console.log(data);
     } catch (error) {
       console.log(error);
     }
@@ -34,6 +35,8 @@ export default function Tracker() {
   useEffect(() => {
     setParcelData(() => router.query);
     if (router.query.$id) getParcelEvents(router.query.$id);
+    // Debug: log router.query to inspect available fields
+    console.log('router.query:', router.query);
   }, [router.query]);
 
   return (
@@ -42,6 +45,9 @@ export default function Tracker() {
         <div className="mb-6" style={{ width: '100%', textAlign: 'center' }}>
           <h1 className={styles.trackerTitle}>Parcel Information</h1>
           <h2 className={styles.trackerSubtitle}>Parcel Name: <span>{parcelData?.name}</span></h2>
+          <h2 className={styles.trackerInfo}>Customer Name: <span>{parcelData?.['customer-name'] || '-'}</span></h2>
+          <h2 className={styles.trackerInfo}>Weight: <span>{parcelData?.weight ? parcelData.weight + ' kg' : '-'}</span></h2>
+          <h2 className={styles.trackerInfo}>Quantity: <span>{parcelData?.quantity || '-'}</span></h2>
           <h2 className={styles.trackerInfo}>Parcel No: <span>{parcelData?.$id}</span></h2>
           <h2 className={styles.trackerStatus}>Status: <span>{notifications?.[0]?.status || 'Unknown'}</span></h2>
         </div>
